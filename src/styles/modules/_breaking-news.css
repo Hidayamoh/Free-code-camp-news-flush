@@ -1,0 +1,23 @@
+.breaking-news {
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-background-color);
+}
+.breaking-news__span {
+  display: inline-block;
+  padding: 8px 16px;
+}
+.breaking-news__cta {
+  border-top: 4px solid red;
+  border-bottom: 4px solid rgb(55, 250, 6);
+  border-left: 4px solid lightseagreen;
+  border-right: 4px solid yellow;
+  color: var(--light-color);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.breaking-news__news {
+  color: var(--light-color-alt);
+  font-size: 0.8rem;
+}
