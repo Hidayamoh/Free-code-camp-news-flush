@@ -1,0 +1,19 @@
+.featured-article {
+  position: relative;
+}
+.featured-article__tag {
+  display: inline-block;
+  padding: 10px 8px;
+  font-size: 0.7rem;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--primary-background-color);
+  color: var(--light-color);
+  text-transform: uppercase;
+}
+.featured-article__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
