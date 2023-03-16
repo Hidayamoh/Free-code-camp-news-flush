@@ -3,6 +3,9 @@
   transition: background 0.5s;
   padding: 20px 12px;
 }
+.overlay--bg--opeque {
+  background: var(--secondary-background-color);
+}
 .overlay__para {
   color: var(--light-color-alt);
   font-size: 0.8 rem;
@@ -15,6 +18,7 @@
   color: var(--light-color);
   margin: 0;
 }
+
 .overlay__separator {
   display: inline-block;
   width: 5px;
@@ -23,6 +27,16 @@
   margin: 0px 16px;
   transform: rotate(45deg);
 }
+.news__overlay {
+  padding-left: 0;
+}
+.news:hover .overlay__heading {
+  color: var(--light-color-alt);
+}
+.overlay__heading--size--s {
+  font-size: 1rem;
+}
+
 .featured-article:hover .overlay {
   background: var(--primary-background-color);
 }

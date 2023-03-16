@@ -1,0 +1,32 @@
+.news {
+  position: relative;
+  height: 300px;
+  border-bottom: 1px solid var(--transparent-light-color);
+}
+.news__number {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  background: var(--secondary-background-color);
+  border-radius: 100%;
+  color: var(--light-color);
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.news__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 100%;
+}
+.news__overlay {
+  background: var(--secondary-background-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
