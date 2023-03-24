@@ -3,6 +3,9 @@
   transition: background 0.5s;
   padding: 20px 12px;
 }
+.news__overlay {
+  padding-left: 0;
+}
 .overlay--bg--opeque {
   background: var(--secondary-background-color);
 }
@@ -27,9 +30,7 @@
   margin: 0px 16px;
   transform: rotate(45deg);
 }
-.news__overlay {
-  padding-left: 0;
-}
+
 .news:hover .overlay__heading {
   color: var(--light-color-alt);
 }
