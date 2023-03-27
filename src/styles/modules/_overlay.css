@@ -6,7 +6,7 @@
 .news__overlay {
   padding-left: 0;
 }
-.overlay--bg--opeque {
+.overlay--bg--opaque {
   background: var(--secondary-background-color);
 }
 .overlay__para {
@@ -30,6 +30,11 @@
   margin: 0px 16px;
   transform: rotate(45deg);
 }
+.overlay__description {
+  color: var(--light-color-alt);
+  padding-top: 20px;
+  margin: 0;
+}
 
 .news:hover .overlay__heading {
   color: var(--light-color-alt);
@@ -38,12 +43,18 @@
   font-size: 1rem;
 }
 
-.featured-article:hover .overlay {
+.featured-article:hover .overlay,
+.post:hover .overlay {
   background: var(--primary-background-color);
 }
-.featured-article:hover .overlay__para {
+.featured-article:hover .overlay__para,
+.post:hover .overlay__para {
   color: var(--light-color);
 }
-.featured-article:hover .overlay__separator {
+.featured-article:hover .overlay__separator,
+.post:hover .overlay__separator {
   background: var(--light-color);
+}
+.post:hover .overlay__description {
+  color: var(--light-color);
 }
