@@ -1,0 +1,37 @@
+.footer {
+  background: var(--secondary-background-color);
+  padding: 20px;
+}
+.footer__heading {
+  color: var(--light-color);
+  position: relative;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400px;
+}
+.footer__nav {
+  text-decoration: none;
+  color: var(--light-color-alt);
+}
+.footer__nav:hover {
+  color: var(--light-color);
+}
+.footer__list {
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+.footer__para {
+  color: var(--light-color-alt);
+}
+.footer__icon {
+  text-decoration: none;
+  color: var(--light-color-alt);
+  font-size: 25px;
+  padding-left: 10px;
+}
+.footer__icon:hover {
+  color: var(--light-color);
+}
+.footer__copyright {
+  color: var(--light-color-alt);
+}

@@ -26,7 +26,7 @@
 .news-letter__para {
   color: var(--light-color-alt);
   margin: 0;
-  padding-block: 36px;
+  padding-block: 48add -A px;
 }
 .news-letter__form {
   appearance: none;
@@ -38,7 +38,7 @@
   border: none;
   width: 100%;
   background: inherit;
-  color: var(--light-color-alt);
+  
 }
 .news-letter__form-input::placeholder {
   padding-inline-start: 12px;

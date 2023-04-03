@@ -25,3 +25,6 @@
 .page__news-letter {
   margin: 48px 16px 20px 16px;
 }
+.page__footer {
+  margin: -14px;
+}
