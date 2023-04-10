@@ -10,13 +10,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <script src="scripts/index.js" defer></script>
   </head>
   <body class="page">
-    <header class="header">
-      <a class="logo header__logo" href=""> <h1 class="logo__text">NewsFlash</h1></a>
-      <i class="header__option ri-sun-line"></i>
-      <i class="header__option border-top: 4px solid red;ri-search-line"></i>
-      <i class="header__option ri-menu-3-line"></i>
+    <header>
+      <div id="header-mobile" class="header">
+        <a class="logo header__logo" href=""><h1 class="logo__text">NewsFlash</h1></a>
+        <button class="header__btn"><i class="header__icon search ri-sun-line"></i></button>
+        <button class="header__btn"><i class="header__icon ri-search-line"></i></button>
+        <button class="header__btn"><i class="header__icon ri-menu-3-line"></i></button>
+      </div>
+      <div id="header-desktop" class="header">
+        <a class="logo" href=""><h1 class="logo__text">NewsFlash</h1></a>
+        <nav class="primary-nav header__nav">
+          <ul class="primary-nav__list">
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Home</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Categories</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Revies</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">News</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Membership</a></li>
+            <li class="primary-nav__item"><a class="primary-nav__link" href="">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="header__btn"><i class="header__icon search ri-sun-line"></i></button>
+        <button class="header__btn"><i class="header__icon ri-search-line"></i></button>
+        <a class="header__sign-in" href="">Sign in</a>
+        <a class="header__sign-up" href="">Sign up</a>
+      </div>
     </header>
     <main>
       <div class="breaking-news page__breaking-news"><span class="breaking-news__span breaking-news__cta">breaking news</span> <span class="breaking-news__span breaking-news__news">Apple anounces a new partnership...</span></div>
@@ -212,33 +232,38 @@
       </div>
       <div class="page__footer">
         <footer class="footer">
-          <h3 class="footer__heading">categories</h2>
+          <h3 class="footer__heading">categories</h3>
           <nav class="footer__navigations">
-            <li class="footer__list"><a class="footer__nav"  href="#">Travel</a></li>
-            <li class="footer__list"><a class="footer__nav" href="#">Food</a></li>
-            <li class="footer__list"><a class="footer__nav" href="#">Technology</a></li>
-            <li class="footer__list"><a class="footer__nav" href="#">Health</a></li>
-            <li class="footer__list"><a class="footer__nav" href="#">Nature</a></li>
-            <li class="footer__list"><a class="footer__nav" href="#">Fitness</a></li>
+            <ul>
+              <li class="footer__list"><a class="footer__nav" href="#">Travel</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Food</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Technology</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Health</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Nature</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Fitness</a></li>
+            </ul>
           </nav>
-          <h3 class="footer__heading">useful links</h2>
+          <h3 class="footer__heading">useful links</h3>
           <nav class="footer__navigation">
-            <li class="footer__list"><a  class="footer__nav" href="#">Home</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">Elements</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">Tags</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">Authors</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">Membership</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">Fitness</a></li>
+            <ul>
+              <li class="footer__list"><a class="footer__nav" href="#">Home</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Elements</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Tags</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Authors</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Membership</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Fitness</a></li>
+            </ul>
           </nav>
-          </ul>
-          <h3 class="footer__heading">company</h2>
+          <h3 class="footer__heading">company</h3>
           <nav class="footer__navigation">
-            <li class="footer__list"><a  class="footer__nav" href="#">Contact us</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">F.A.Q</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">Tags</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">Careers</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">Authors</a></li>
-            <li class="footer__list"><a  class="footer__nav" href="#">Memberships</a></li>
+            <ul>
+              <li class="footer__list"><a class="footer__nav" href="#">Contact us</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">F.A.Q</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Tags</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Careers</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Authors</a></li>
+              <li class="footer__list"><a class="footer__nav" href="#">Memberships</a></li>
+            </ul>
           </nav>
           <a class="logo footer__logo" href=""> <h1 class="logo__text">NewsFlash</h1></a>
           <p class="footer__para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam neque dicta ipsum, inventore dolore delectus. Error, ea! Labore, eaque. Impedit id obcaecati iusto aspernatur quam reprehenderit iure distinctio facere porro.</p>
