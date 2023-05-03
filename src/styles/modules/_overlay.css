@@ -43,15 +43,15 @@
   font-size: 1rem;
 }
 
-.featured-article:hover .overlay,
+.article:hover .overlay,
 .post:hover .overlay {
   background: var(--primary-background-color);
 }
-.featured-article:hover .overlay__para,
+.article:hover .overlay__para,
 .post:hover .overlay__para {
   color: var(--light-color);
 }
-.featured-article:hover .overlay__separator,
+.article:hover .overlay__separator,
 .post:hover .overlay__separator {
   background: var(--light-color);
 }

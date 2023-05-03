@@ -1,5 +1,6 @@
 .news {
   position: relative;
+
   height: 300px;
   border-bottom: 1px solid var(--transparent-light-color);
 }
@@ -32,3 +33,25 @@
   left: 0;
   right: 0;
 }
+/* @media (min-width: 600px) {
+  .news__img {
+    grid-area: img;
+  }
+  .overlay {
+    grid-area: overlay;
+  }
+  .news {
+    display: grid;
+    grid-template-areas: "img overlay overlay";
+  }
+  .news__img {
+    width: auto;
+    height: 50%;
+  }
+}
+@media (min-width: 1000px) {
+  .news__img {
+    width: auto;
+    height: 25%;
+  }
+} */

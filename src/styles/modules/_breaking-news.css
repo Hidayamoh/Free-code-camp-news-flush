@@ -5,7 +5,7 @@
 }
 .breaking-news__span {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 8px;
 }
 .breaking-news__cta {
   border-top: 4px solid red;

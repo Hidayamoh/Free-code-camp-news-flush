@@ -1,7 +1,10 @@
-.featured-article {
+.article {
   position: relative;
+  height: 300px;
+  width: auto;
+  overflow: hidden;
 }
-.featured-article__tag {
+.article__tag {
   display: inline-block;
   padding: 10px 8px;
   font-size: 0.7rem;
@@ -12,14 +15,20 @@
   color: var(--light-color);
   text-transform: uppercase;
 }
-.featured-article__img {
+.article__img {
   display: block;
+  height: 100%;
   width: 100%;
-  height: auto;
+  object-fit: cover;
 }
-.featured-article__overlay {
+.article__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+}
+@media (min-width: 768px) {
+  .article {
+    height: 360px;
+  }
 }
